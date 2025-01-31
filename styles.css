@@ -11,6 +11,16 @@
  div :last-child{
 	color: red;
 }
+div :nth-child(2) {
+	color:black;
+}
+ul li{
+	width:50%;
+	padding:10px;
+}
+ul :first-child , ul :last-child{
+	font-size:22px;
+}
 
  ul li:nth-child(1){
 	background-color:white;
