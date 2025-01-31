@@ -1,34 +1,33 @@
 /*  your css code here. If applicable */
-html{
-background:rgb(135, 206, 235);
-	width:100vw;
-	height:100vh;
-}
-.first-p{
-background:black;
-	color:white;
-}
-.third{
-	color:red;
-}
-ul {
-	width:50%;
-	padding:10px;
-}
-ul li{
-	font-size:22px;
-	background:gray;
+:root{
+	background-color:skyblue;
 }
 
-li:first-child{
+ div :first-child{
+	background-color:black;
 	color:white;
-	background:black;
 }
-li:nth-child(odd) {
-	color:white;
-	background:gray;
+
+ div :last-child{
+	color: red;
 }
-li:last-child{
-	color:red;
-	background:white;
+
+ ul li:nth-child(1){
+	background-color:white;
+}
+
+ ul li:nth-child(5){
+	background-color:white;
+}
+
+ ul li:nth-child(2){
+    background-color: slategrey;
+}
+
+ul li:nth-child(3){
+	background-color:pink;
+}
+
+ ul li:nth-child(4){
+    background-color: slategrey;
 }
